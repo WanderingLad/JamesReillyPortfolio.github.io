@@ -13,54 +13,6 @@
 </head>
 
 <body class="bg-dark">
-    <header>
-        <nav class="navbar justify-content-end">
-            <div class="burger p-3">
-                <a type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor"
-                        class="bi bi-list" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
-                    </svg>
-                </a>
-            </div>
-            <!-- Button trigger modal -->
-            <!-- Modal -->
-            <div class="modal fade bg-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5 text-dark" id="exampleModalLabel">Modal title</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="container-fluid">
-                                <div class="">
-                                    <a href="index.html">
-                                        <h5 class="text-dark">Home</h5>
-                                    </a>
-                                </div>
-
-                                <div class="">
-                                    <a href="about.html">
-                                        <h5 class="text-dark">About Me</h5>
-                                    </a>
-                                </div>
-
-                                <div class="">
-                                    <a href="contact.html">
-                                        <h5 class="text-dark">Contact Me</h5>
-                                    </a>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
     <main>
         <section>
             <div class="container">
@@ -95,61 +47,77 @@
                         </div>
                     </div>
                     <div class="my-4">
-                        <div id="filter">
+                        <div id="filter" class="text-center">
                         </div>
                         <div class="text-center mb-4">
-                            <h1>My Skills</h1>
+                            <h2>My Projects</h2>
                         </div>
                         <!-- Skills -->
                         <div id="projects" class="row">
-                            <div class="col-3 my-4 wordpress">
+                            <div class="col-4 my-4 html solidity">
                                 <div class="text-center">
-                                    <a href="discord.html">
-                                        <h4>WordPress</h4>
-                                        <i class="devicon-wordpress-plain"></i>
-                                    </a>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-dark">Arcade Machine</h4>
+                                            <p class="card-text text-dark">A conceptual multiplayer arcade machine made to be ran off the Ethereum blockchain using Solidity.</p>
+                                            <a href="https://github.com/WanderingLad/ArcadeMachine" target="_blank" class="btn btn-dark">Check it out on Github</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-3 my-4">
+                            <div class="col-4 my-4 python">
                                 <div class="text-center">
-                                    <h4>Android Studio</h4>
-                                    <i class="devicon-androidstudio-plain"></i>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-dark">Discord Bot</h4>
+                                            <p class="card-text text-dark">A collection of commands for bots to be integrated with Discord in Python.</p>
+                                            <a href="https://github.com/WanderingLad/Discord-Bot" target="_blank"  class="btn btn-dark">Check it out on Github</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-3 my-4">
+                            <div class="col-4 my-4 html wordpress">
                                 <div class="text-center">
-                                    <h4>Python</h4>
-                                    <i class="devicon-python-plain"></i>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-dark">Georgia Mountain Works</h4>
+                                            <p class="card-text text-dark">A WordPress website created in 2023 using HTML, Javascript, CSS, and PHP.</p>
+                                            <a href="https://georgiamountainsworks.com/" target="_blank" class="btn btn-dark">Check out the website</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-3 my-4">
+                            <div class="col-4 my-4 html wordpress">
                                 <div class="text-center">
-                                    <h4>GitHub</h4>
-                                    <i class="devicon-github-original"></i>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-dark">John Foley Inc</h4>
+                                            <p class="card-text text-dark">A WordPress website created in 2023 using HTML, Javascript, CSS, and PHP for John Foley.</p>
+                                            <a href="https://johnfoleyinc.com/" target="_blank" class="btn btn-dark">Check out the website</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-3 my-4">
+                            <div class="col-4 my-4 react html">
                                 <div class="text-center">
-                                    <h3>HTML</h3>
-                                    <i class="devicon-html5-plain"></i>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-dark">A Space Place</h4>
+                                            <p class="card-text text-dark">A collaborative website using a MERN stack for sharing and moderating posts about the solar system.</p>
+                                            <a href="https://github.com/WanderingLad/A-Space-Place" target="_blank" class="btn btn-dark">Check it out on Github</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-3 my-4">
+                            <div class="col-4 my-4 androidStudio">
                                 <div class="text-center">
-                                    <h3>Javascript</h4>
-                                        <i class="devicon-javascript-plain"></i>
-                                </div>
-                            </div>
-                            <div class="col-3 my-4">
-                                <div class="text-center">
-                                    <h3>CSS</h4>
-                                        <i class="devicon-css3-plain"></i>
-                                </div>
-                            </div>
-                            <div class="col-3 my-4">
-                                <div class="text-center">
-                                    <h3>Solidity</h4>
-                                        <i class="devicon-solidity-plain"></i>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-dark">Text Game</h4>
+                                            <p class="card-text text-dark">A text based adventure game created in Android Studio using Java.</p>
+                                            <a href="https://github.com/WanderingLad/Text-Game" target="_blank" class="btn btn-dark">Check it out on Github</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
